@@ -16,8 +16,7 @@ public class BaseWeb {
 
     @RequestMapping(method = RequestMethod.GET,value = "/st")
     public String str(){
-        int i = 1;
-        String str = "he";
+        String str = "test1";
         System.out.println(str);
         return str;
     }
